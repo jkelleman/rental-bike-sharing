@@ -14,6 +14,7 @@ The dataset contains the hourly and daily count of rental bikes from the Capital
 
 The dataset is multivariate and includes 13 features such as:
 
+<li>
 **Date:** The date of the observation.
 **Season:** Categorical values representing winter, spring, summer, and fall. Season (1:springer, 2:summer, 3:fall, 4:winter)
 **Year:** Encoded as 0 for 2011 and 1 for 2012. Year (0: 2011, 1:2012).
@@ -35,6 +36,7 @@ The dataset is multivariate and includes 13 features such as:
 **casual:** count of casual users
 **registered:** count of registered users
 **cnt:** count of total rental bikes including both casual and registered
+</li>li>
 
 This dataset is particularly interesting because it records the exact travel duration and positions, turning the bike-sharing system into a virtual sensor network for city mobility. By monitoring this data, important events in the city can be detected.
 
