@@ -1,11 +1,12 @@
-# rental-bike-sharing
-Rental Bike Sharing in DC (2011-2012)
-Analysis prepared by Jen Kelleman
+<h1>Bike Sharing Dataset</h1>
+<p>Analysis prepared by <b>Jen Kelleman</b></p>
+<p>Carnegie Mellon University</p>
+<p>Data Science Capstone Project</p>
+<p>February 2025</p>
 
-<h1>#rental-bike-sharing</h1>
-<h2></h2>Rental Bike Sharing in DC (2011-2012)</h2> 
 
-<h2>Context</h2>
+
+<h2>Background</h2>
 <p>Bike sharing systems have become very popular in many cities, allowing people to easily rent a bike from one location and return it at another. These systems are praised for their benefits in reducing traffic, improving the environment, and promoting health. Additionally, they collect a lot of user data, making them valuable for studying city mobility patterns.
 
 What's cool about bike sharing systems is the data they generate. Unlike buses or subways, they record the exact travel duration and positions. This makes them like a virtual sensor network for city mobility. By monitoring this data, we can detect important events in the city. 
@@ -13,18 +14,22 @@ What's cool about bike sharing systems is the data they generate. Unlike buses o
 My project focuses on a bike sharing system in Washington, D.C., with records of bike trips in two-hour intervals over a two-year period (2011-2012). The data includes details about each interval, such as weather conditions, the day of the week, temperature, humidity, and windspeed. The main goal is to analyze how the number of bike users has changed over time and how environmental factors influence bike usage.</p> 
 
 
+<p></p>
+<h2>Research questions</h2>
+
+
+<p></p>
 <h2>About the dataset</h2>
 <p>The dataset contains the hourly and daily count of rental bikes from the Capital bikeshare system in Washington, DC, covering the years 2011 and 2012. It includes corresponding weather and seasonal information, making it a rich source for analyzing bike rental patterns and their correlation with various factors.</p>
 
 The dataset is multivariate and includes 13 features such as:
 
 <li><b>Date:</b> The date of the observation. </li>
-<li><b>Season:</b> Categorical values representing winter, spring, summer, and fall. Season (1:springer, 2:summer, 3:fall, 4:winter)</li>
 <li><b>Year:</b> Encoded as 0 for 2011 and 1 for 2012. Year (0: 2011, 1:2012).</li>
 <li><b>Month:</b> Categorical values from 1 to 12. Month (1 to 12).</li>
 <li><b>Hour:</b> Categorical values from 0 to 23. Hour (0 to 23).</li>
 <li><b>Holiday:</b> Binary value indicating whether the day is a holiday (extracted from Holiday Schedule).</li>
-<li><b>Weekday:</b> Categorical values representing the day of the week. If day is neither weekend nor holiday is 1, otherwise is 0.</li>
+<li><b>Work day:</b> Categorical values representing the day of the week. If day is neither weekend nor holiday is 1, otherwise is 0.</li>
 <li><b>Work Day:</b> Binary value indicating whether the day is a working day.</li>
 <li><b>Weather:</b> Categorical values representing different weather conditions.</li>
       <li><b>weathersit:</b>extracted from Freemeteo)</li>
@@ -39,9 +44,13 @@ The dataset is multivariate and includes 13 features such as:
 <li><b>Casual:</b> The count of casual users in a particular hour.</li>
 <li><b>Registered:</b> The count of registered users in a particular hour.</li>
 
+<p></p>
+<h2>Appendum</h2> 
 <i>To guide the data analysis, I've created additional columns such as:</i>
 
+<p></p>
 <li><b>Count:</b> The count of total rental bikes including both casual and registered in a particular hour.</li>
 <li><b>MDY:</b> The month day, year of a particular bike-renting instance.</li>
-<li><b>Holiday Name</b> 
-</li>
+<li><b>Season:</b> Categorical values representing winter, spring, summer, and fall. Season (1:springer, 2:summer, 3:fall, 4:winter)</li> 
+<li><b>Holiday Name:</b> Categorical values representing the US government holiday name. 
+</li><li><b>Day of the Week:</b> Categorical values representing the day of the week. Day of the Week (1: Monday, 2: Tuesday, 3: Wednesday, 4: Thursday, 5: Friday, 6: Saturday, 7: Sunday)</li> 
