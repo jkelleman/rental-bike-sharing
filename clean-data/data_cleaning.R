@@ -22,7 +22,8 @@ print(bikeSharing)
 #2. Add a "Count" column next to the "Casual" and "Registered" columns. Make it the 3rd column.
 #3. Clean up how "Year" is represented. 0 = 2011, 1 = 2012.
 #4. Convert the "Month" column to a factor. Spell out the months. 1 = January, 2 = February, 3 = March, 4 = April, 5 = May, 6 = June, 7 = July, 8 = August, 9 = September, 10 = October, 11 = November, 12 = December.
-#5. Add a "HolidayName" column to the dataset. Create a new column called "HolidayName". If "Holiday" is 0, then "HolidayName" is "No". If "Holiday" is 1, then "HolidayName" is the value in the "HolidayName" column. Replace the value "HolidayName" with the corresponding holiday name based on 2011 or 2012 calendar, using information from the "Year" column.
+#5. Add a "HolidayName" column to the dataset. If "Holiday" is 0, then "HolidayName" is "No". If "Holiday" is 1, then "HolidayName" is the value in the "HolidayName" column. 
+#6. Add a "CulturalEvent" column with the corresponding cultural event date(s) based on the 2011 or 2012 calendar, using information from the "Year" column.
 #6 Create "Season" column based off information from the "Month" column. 1 = spring, 2 = summer, 3 = fall, 4 = winter. Spell out the seasons.
 #7. Add a "MDY" column to the dataset. Merge together the existing columns of "Month", "Day", and "Year" to create a new column called "MDY". Format the column as "Month-Day,-Year". 
 #8. Convert the time from 24 hours to 12 hours format. Include am and pm as appropriate. Create "Hour" column with the following values: 0 = 12am, 1 = 1am, 2 = 2am, 3 = 3am, 4 = 4am, 5 = 5am, 6 = 6am, 7 = 7am, 8 = 8am, 9 = 9am, 10 = 10am, 11 = 11am, 12 = 12pm, 13 = 1pm, 14 = 2pm, 15 = 3pm, 16 = 4pm, 17 = 5pm,18=6pm ,19=7pm ,20=8pm ,21=9pm ,22=10pm ,23=11pm
