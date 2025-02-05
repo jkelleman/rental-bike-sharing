@@ -1,7 +1,7 @@
 <h1>Bike Sharing Dataset</h1>
 <p>Analysis prepared by <b>Jen Kelleman</b></p>
-<p>Carnegie Mellon University</p>
 <p>Data Science Capstone Project</p>
+<p>Carnegie Mellon University</p>
 <p>February 2025</p>
 
 
@@ -22,7 +22,7 @@ My project focuses on a bike sharing system in Washington, D.C., with records of
 <p>Predication of bike rental count hourly or daily based on the environmental and seasonal settings.</p>
 <p></p>	
 <b>2. Event and Anomaly Detection:</b>
-<p>Count of rented bikes are potentially correlated to <b>major cultural events in the town,</b> which are easily verifiable with search engines. For example, the query "National Cherry Blossom Festival in DC" returns search engine results for "March 26-April 10". Here is a valuable reference for highlighting the top 100 most important dates:</p>
+<p><b></b>**HYPOTHESIS TO BE TESTED:</b> Count of rented bikes are potentially correlated to <b>major cultural events in the town,</b> which are easily verifiable with search engines. For example, the query "National Cherry Blossom Festival in DC" returns search engine results for "March 26-April 10". Here is a valuable reference for highlighting the top 100 most important dates:</p>
                    <li><b>For 2011:</b> https://www.bizbash.com/bizbash-lists/media-gallery/13478255/washingtons-top-100-events-of-2011</li>
                   <li><b>For 2012:</b> https://www.bizbash.com/bizbash-lists/top-100-events/top-list/13230517/washingtons-top-100-events-2012</li>
 <p></p>                  
