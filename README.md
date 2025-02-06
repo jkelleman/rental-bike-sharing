@@ -16,7 +16,19 @@ My project focuses on a bike sharing system in Washington, D.C., with records of
 
 <p></p>
 <h2>Research questions</h2>
-
+Based on my research goals, I'm interested in exploring research questions:
+<p></p>
+<b>1. Environmental and seasonal factors</b>
+<li>How do environmental and seasonal factors influence the hourly and daily bike rental counts?
+<li>Can we predict the number of bike rentals based on weather conditions, holidays, and other temporal factors?</li>
+<li>Is there a correlation between major cultural events in Washington, D.C., and the number of bike rentals?</li>
+<li>What patterns can be observed in the bike rental data across different times of the day, days of the week, and months of the year?</li>
+<p></p>
+<b>2. Bike-rental status</b>
+<li>How do casual and registered users differ in their bike rental behaviors?</li>
+<p></p>
+These questions aim to analyze and predict bike rental trends, considering various influencing factors.
+<p></p>	
 <h2>Associated tasks</h2>
 <b>1. Regression:</b>
 <p>Predication of bike rental count hourly or daily based on the environmental and seasonal settings.</p>
