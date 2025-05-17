@@ -77,8 +77,11 @@ Summary of insights into predicting future bikeshare system usage. Knowing these
 <li><b>Seasonality:</b> Bike rental usage peaks during the summer months (May, June, July, September).
 <li><b>Potential limitations:</b> No information on the exact location of the bikeshare systems, no user type segmentation (e.g., commuters vs. leisure users), and ambiguities in the data.
 
-<li>For future explorations, I recommend during a peak hours analysis, demand forecasting, and operational adjustments.
-<li><b>Peak hours analysis:</b> Conduct a detailed analysis of peak hours to understand the factors driving high demand during these times. Look at commuter patterns, in particular. <b>Demand forecasting:</b> Use the hourly data to build predictive models for bike rental demand. <b>Operational adjustments:</b> Investigate the operational aspects, such as bike availability and maintenance schedules, to ensure that bikes are available at peak hours.
+For future explorations, I recommend during a peak hours analysis, demand forecasting, and operational adjustments.
+
+<li><b>Peak hours analysis:</b> Conduct a detailed analysis of peak hours to understand the factors driving high demand during these times. Look at commuter patterns, in particular. 
+  <li><b>Demand forecasting:</b> Use the hourly data to build predictive models for bike rental demand. 
+    <li><b>Operational adjustments:</b> Investigate the operational aspects, such as bike availability and maintenance schedules, to ensure that bikes are available at peak hours.
 
 <p></p>
 <h2>Appendum</h2> 
