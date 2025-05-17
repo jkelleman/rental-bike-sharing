@@ -67,6 +67,19 @@ The dataset is multivariate and includes 13 features such as:
 <li><b>Casual:</b> The count of casual users in a particular hour.</li>
 <li><b>Registered:</b> The count of registered users in a particular hour.</li>
 
+
+<p></p>
+<h2>Main Conclusions and Takeaways</h2>
+Summary of insights into predicting future bikeshare system usage. Knowing these insights can help to optimize bike availability and improve the service efficiency.
+
+<li><b>Time-based:</b> Bike rental usage peaks during commuting hours. Specifically, 7am-9am and 5pm-7pm.
+<li><b>Weather-based:</b> Higher temperatures, lower windspeed, and lower humidity all generally correspond to an increase in bike rentals.
+<li><b>Seasonality:</b> Bike rental usage peaks during the summer months (May, June, July, September).
+<li><b>Potential limitations:</b> No information on the exact location of the bikeshare systems, no user type segmentation (e.g., commuters vs. leisure users), and ambiguities in the data.
+
+<li><b>For future explorations, I recommend during a peak hours analysis, demand forecasting, and operational adjustments.
+<li><b>Peak hours analysis:</b> Conduct a detailed analysis of peak hours to understand the factors driving high demand during these times. Look at commuter patterns, in particular. <b>Demand forecasting:</b> Use the hourly data to build predictive models for bike rental demand. <b>Operational adjustments:</b> Investigate the operational aspects, such as bike availability and maintenance schedules, to ensure that bikes are available at peak hours.
+
 <p></p>
 <h2>Appendum</h2> 
 To guide the data analysis, I've created additional columns such as:
