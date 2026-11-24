@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.png" alt="What moves bike rentals in D.C.? Weather, season, hour, holidays, city events and rider type feed a model that predicts rentals."></p>
+
 <h1>Bike Sharing Dataset</h1>
 <p>Analysis prepared by <b>Jen Kelleman</b></p>
 <p>Data Science Capstone Project</p>
