@@ -1,6 +1,12 @@
 <p align="center"><img src="assets/banner.png" alt="What moves bike rentals in D.C.? Weather, season, hour, holidays, city events and rider type feed a model that predicts rentals."></p>
 
 <h1>Bike Sharing Dataset</h1>
+<p>
+<a href="analysis_files"><img alt="R" src="https://img.shields.io/badge/language-R-276DC3?logo=r&logoColor=white"></a>
+<a href="rental-bike-sharing.Rproj"><img alt="RStudio project" src="https://img.shields.io/badge/RStudio-project-75AADB?logo=rstudioide&logoColor=white"></a>
+<a href="Final_JKExecutiveSummary.pdf"><img alt="Carnegie Mellon capstone" src="https://img.shields.io/badge/Carnegie%20Mellon-data%20science%20capstone-C41230"></a>
+<a href="raw-data/bikeSharing.csv"><img alt="Data: Capital Bikeshare 2011-2012" src="https://img.shields.io/badge/data-Capital%20Bikeshare%202011--2012-2e8a3a"></a>
+</p>
 <p>Analysis prepared by <b>Jen Kelleman</b></p>
 <p>Data Science Capstone Project</p>
 <p>Carnegie Mellon University</p>
@@ -100,10 +106,10 @@ To guide the data analysis, I've created additional columns such as:
 </li>
 <p></p>
 <h2>Files</h2>
-<li>1. Data cleaning: data_cleaning.R </li>
-<li>2. EDA: eda.R </li>
-<li>3. Feature engineering: feature_engineering.R </li>
-<li>4. Modeling: modeling.R </li>
-<li>5. Visualization: visualization.R </li>
-<li>6. Main script: main.R </li>
+<li><b>Executive summary:</b> <a href="Final_JKExecutiveSummary.pdf">Final_JKExecutiveSummary.pdf</a></li>
+<li><b>Raw data:</b> <a href="raw-data/bikeSharing.csv">raw-data/bikeSharing.csv</a></li>
+<li><b>Data cleaning:</b> <a href="clean-data/data_cleaning.R">clean-data/data_cleaning.R</a>, which writes <a href="clean-data/clean_bikeSharing.csv">clean-data/clean_bikeSharing.csv</a></li>
+<li><b>Exploratory analysis:</b> <a href="bike-eda_files">bike-eda_files/</a> (linear and PCA EDA reports, PDF)</li>
+<li><b>Models:</b> <a href="analysis_files/analysis_HW4_linearmodel.R">linear model</a>, <a href="analysis_files/analysis_HW4_PCAmodel.R">PCA model</a> and <a href="analysis_files/analysis_regressiontest.R">regression tests</a>, with how-tos in <a href="analysis_files">analysis_files/</a></li>
+<li><b>RStudio project:</b> <a href="rental-bike-sharing.Rproj">rental-bike-sharing.Rproj</a></li>
 
